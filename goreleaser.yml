@@ -1,0 +1,21 @@
+builds:
+  - binary: lightsocks-client
+    main: client.go
+    goos:
+       - windows
+       - darwin
+       - linux
+    goarch:
+       - amd64
+       - 386
+       - arm
+  - binary: lightsocks-server
+    main: server.go
+    goos:
+       - windows
+       - darwin
+       - linux
+    goarch:
+       - amd64
+       - 386
+       - arm
